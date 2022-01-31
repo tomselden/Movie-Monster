@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import DisplayIdeas from "./DisplayIdeas";
-import IdeasForm from "./IdeasForm"
+import IdeasForm from "./components/IdeasForm"
 
 function App() {
   const [ideas, setIdeas] = useState([
